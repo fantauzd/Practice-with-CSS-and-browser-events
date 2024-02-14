@@ -1,0 +1,126 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(2, 34, 159, 0.692);
+    font-size: 1.8rem;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 145, 0);
+    font-size: 2.5rem;
+    margin-left: 1.5em; 
+}
+
+caption {
+    font-size: 1em;
+    rotate: -30deg;
+    color: #fb0000;
+    border-style: dotted;
+    border-color: red;
+    width: 12em;
+    position: relative;
+    top: 150px;
+    left: 120px;
+}
+
+p {
+    margin-left: 4.5em;
+    color:rgb(255, 255, 255);
+}
+
+table {
+    border-style: solid;
+    padding: 40px;
+    padding-top: 250px;
+    border-color: rgba(0, 0, 0, 0.881);
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2em;
+    margin-left: 3em;
+
+}
+
+tr th {
+    border-style: solid;
+    border-width: 3pt;
+    border-color: navy;
+    border-bottom-style: groove;
+    padding: 12px;
+    background-color: coral;
+}
+
+tr td {
+    border-style: solid;
+    border-width: 3pt;
+    border-color: navy;
+    border-bottom-style: ridge;
+    padding: 12px;
+    background-color: aliceblue;
+    width: 12em;
+}
+
+td+td {
+    width: 2em;
+}
+
+
+button {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #020001;
+    color: #ff800a;
+    }
+
+button:hover {
+    color: #010000;
+  }
+button:hover:after {
+    height: 100%;
+  }
+button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background: #ff600a;
+  }
+
+#beaver-store {
+    margin-bottom: 2em;
+    margin-left: 6.5em;
+}
+
+a {
+    color:rgb(255, 145, 0);
+}
+
+#o {
+    margin-left: 2em;
+    font-size: 100pt;
+    color: orange;
+}
+
+#s {
+    font-size: 100pt;
+    color: black
+}
+
+#u {
+    font-size: 100pt;
+    color: grey
+}

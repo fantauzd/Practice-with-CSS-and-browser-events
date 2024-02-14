@@ -1,0 +1,136 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(187, 214, 191);
+    font-size: 1.8rem;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(171, 16, 142);
+    font-size: 2.5rem;
+    margin-left: 1.5em; 
+}
+
+caption {
+    font-size: 1em;
+    rotate: -30deg;
+    color: #13ae1d;
+    border-style: dotted;
+    border-color: rgb(255, 0, 217);
+    width: 12em;
+    position: relative;
+    top: 150px;
+    left: 120px;
+}
+
+p {
+    margin-left: 4.5em;
+    color:rgb(255, 255, 255);
+}
+
+table {
+    border-style: solid;
+    padding: 40px;
+    padding-top: 250px;
+    border-color: rgba(255, 1, 246, 0.881);
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 2em;
+    margin-left: 3em;
+
+}
+
+tr th {
+    border-style: solid;
+    border-width: 3pt;
+    border-color: navy;
+    border-bottom-style: groove;
+    padding: 12px;
+    background-color: rgba(255, 80, 185, 0.851);
+}
+
+tr td {
+    border-style: solid;
+    border-width: 3pt;
+    border-color: rgba(240, 6, 205, 0.865);
+    border-bottom-style: ridge;
+    padding: 12px;
+    background-color: rgb(222, 247, 236);
+    width: 12em;
+}
+
+td+td {
+    width: 2em;
+}
+
+
+button {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #020001;
+    color: #ff0ae2;
+    }
+
+button:hover {
+    color: #010000;
+  }
+button:hover:after {
+    height: 100%;
+  }
+button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s ease;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 100%;
+    background: #ff0aef;
+  }
+
+#beaver-store {
+    margin-bottom: 2em;
+    margin-left: 6.5em;
+}
+
+a {
+    color:rgb(255, 145, 0);
+}
+
+a:visited {
+    color: #1f7405;
+}
+
+#o {
+    margin-left: 2em;
+    font-size: 100pt;
+    color: orange;
+}
+
+#s {
+    font-size: 100pt;
+    color: black;
+    position:relative;
+    top: 90px;
+    left: 2px;
+}
+
+#u {
+    font-size: 100pt;
+    color: grey;
+    position: relative;
+    top: 180px;
+    left: 2px;
+}
